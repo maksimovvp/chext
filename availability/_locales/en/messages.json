@@ -1,0 +1,14 @@
+{
+	"extTitle": {
+		"message": "SEO services availability",
+		"description": "Extension title"
+	},
+	"extName": {
+		"message": "SEO services availability",
+		"description": "Extension name"
+	},
+	"extDesc": {
+		"message": "Check some states of SEO department services",
+		"description": "Extension description"
+	}
+}

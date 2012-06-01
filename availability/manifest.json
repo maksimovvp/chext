@@ -1,0 +1,39 @@
+{
+	"name": "__MSG_extName__",
+	"version": "0.0.0.7",
+	//			w.x.y.z
+	//          | | | |
+	//          | | | +- номер сборки
+	//          | | +--- стадия разработки
+	//			| |			0 - альфа,
+	//			| |			1 - бета,
+	//			| |			2 - релиз кандидат,
+	//			| |			3 - публичный релиз
+	//          | +----- (minor) незначительные изменения
+	//			+------- (major) значительные изменения: новая версия, переписан код
+	"manifest_version": 2,
+
+	"description": "__MSG_extDesc__",
+	"icons": {
+		"16": "html/images/seo16.png",
+		"32": "html/images/seo32.png",
+		"48": "html/images/seo48.png",
+		"64": "html/images/seo64.png",
+		"128": "html/images/seo128.png"
+	},
+	"default_locale": "ru",
+
+	"browser_action": {
+		"default_title": "__MSG_extTitle__",
+		"default_icon": "html/images/seo48.png",
+		"default_popup": "html/popup.html"
+	},
+	
+	"options_page": "html/options.html",
+	"permissions": [
+		"tabs",
+		"http://inlink.testy-labs.ru/",
+		"http://pars.testy-labs.ru/",
+		"http://testy-labs.ru/positions/"
+	]
+}

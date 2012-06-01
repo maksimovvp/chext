@@ -1,0 +1,14 @@
+{
+	"extTitle": {
+		"message": "Доступность сервисов SEO отдела",
+		"description": "Extension title"
+	},
+	"extName": {
+		"message": "Доступность сервисов SEO отдела",
+		"description": "Extension name"
+	},
+	"extDesc": {
+		"message": "Проверяет некоторые состояния сервисов SEO отдела",
+		"description": "Extension description"
+	}
+}
